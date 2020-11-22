@@ -1,6 +1,6 @@
 import gender_guesser.detector as gnd
 import pandas as pd
-#Name für in und ou
+# filenames (output written in the same file)
 files = ['myfile.xlsx','File2.xlsx']
 d = gnd.Detector(case_sensitive=False)
 
